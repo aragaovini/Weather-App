@@ -48,7 +48,6 @@ class HourlyForecastCollectionViewCell: UICollectionViewCell {
     
     private lazy var iconImageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.image = UIImage(named: "sunIcon")
         imageView.contentMode = .scaleAspectFit
         return imageView
     }()
@@ -61,6 +60,12 @@ class HourlyForecastCollectionViewCell: UICollectionViewCell {
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    func loadData(time: String?, icon: UIImage?, temp: String?) {
+        hourLabel.text = time
+        iconImageView.image = icon
+        temperatureLabel.text = temp
     }
     
     private func setupView() {

@@ -12,6 +12,8 @@
 		819206AC2B7A51B6005903E8 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819206AB2B7A51B6005903E8 /* Color+Extensions.swift */; };
 		819206AE2B7A5F62005903E8 /* DailyForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819206AD2B7A5F62005903E8 /* DailyForecastTableViewCell.swift */; };
 		819206B02B7A6610005903E8 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819206AF2B7A6610005903E8 /* UIView+Extensions.swift */; };
+		819206B22B7A6AEC005903E8 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819206B12B7A6AEC005903E8 /* Service.swift */; };
+		819206B42B7A925D005903E8 /* Core+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819206B32B7A925D005903E8 /* Core+Extensions.swift */; };
 		81CBEAC52B793BA600ED8A63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBEAC42B793BA600ED8A63 /* AppDelegate.swift */; };
 		81CBEAC72B793BA600ED8A63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBEAC62B793BA600ED8A63 /* SceneDelegate.swift */; };
 		81CBEAC92B793BA600ED8A63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBEAC82B793BA600ED8A63 /* ViewController.swift */; };
@@ -24,6 +26,8 @@
 		819206AB2B7A51B6005903E8 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		819206AD2B7A5F62005903E8 /* DailyForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForecastTableViewCell.swift; sourceTree = "<group>"; };
 		819206AF2B7A6610005903E8 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		819206B12B7A6AEC005903E8 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		819206B32B7A925D005903E8 /* Core+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Core+Extensions.swift"; sourceTree = "<group>"; };
 		81CBEAC12B793BA600ED8A63 /* Weather App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81CBEAC42B793BA600ED8A63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81CBEAC62B793BA600ED8A63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,11 +66,13 @@
 		81CBEAC32B793BA600ED8A63 /* Weather App */ = {
 			isa = PBXGroup;
 			children = (
+				819206B32B7A925D005903E8 /* Core+Extensions.swift */,
 				819206A72B7956DD005903E8 /* LaunchScreen.storyboard */,
 				81CBEAC42B793BA600ED8A63 /* AppDelegate.swift */,
 				81CBEAC62B793BA600ED8A63 /* SceneDelegate.swift */,
 				81CBEAC82B793BA600ED8A63 /* ViewController.swift */,
 				819206AD2B7A5F62005903E8 /* DailyForecastTableViewCell.swift */,
+				819206B12B7A6AEC005903E8 /* Service.swift */,
 				819206AF2B7A6610005903E8 /* UIView+Extensions.swift */,
 				819206A92B796E4A005903E8 /* HourlyForecastCollectionViewCell.swift */,
 				819206AB2B7A51B6005903E8 /* Color+Extensions.swift */,
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				819206B02B7A6610005903E8 /* UIView+Extensions.swift in Sources */,
+				819206B22B7A6AEC005903E8 /* Service.swift in Sources */,
 				81CBEAC92B793BA600ED8A63 /* ViewController.swift in Sources */,
 				819206AC2B7A51B6005903E8 /* Color+Extensions.swift in Sources */,
+				819206B42B7A925D005903E8 /* Core+Extensions.swift in Sources */,
 				819206AE2B7A5F62005903E8 /* DailyForecastTableViewCell.swift in Sources */,
 				81CBEAC52B793BA600ED8A63 /* AppDelegate.swift in Sources */,
 				819206AA2B796E4A005903E8 /* HourlyForecastCollectionViewCell.swift in Sources */,
